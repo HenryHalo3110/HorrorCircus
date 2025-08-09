@@ -22,7 +22,7 @@ body {
 
 .menu a {
     display: inline-block;
-    background-color: #000000;
+    background-color: #1c1e2a;
     color: #ffffff;
     padding: 10px 20px;
     margin: 5px;
@@ -32,13 +32,21 @@ body {
 }
 
 .menu a:hover {
-    background-color: #1a1a1a;
+    background-color: #2a2c3a;
+}
+
+/* Linha divisória abaixo das caixinhas */
+.divider {
+    border: none;
+    border-top: 1px solid #ffffff;
+    margin: 10px auto 20px auto;
+    width: 80%;
 }
 
 /* Imagem grande centralizada */
 .large-img {
     display: block;
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
     max-width: 80%;
     border: 3px solid #7b1717;
 }
