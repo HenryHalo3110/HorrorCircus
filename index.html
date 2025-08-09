@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Layout</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Imagem pequena -->
-    <a href="#">
-        <img src="https://via.placeholder.com/90" alt="Imagem pequena" class="small-img">
-    </a>
+    <!-- Cabeçalho -->
+    <header class="p-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- Imagem pequena -->
+            <a href="#">
+                <img src="https://via.placeholder.com/90" alt="Imagem pequena" class="small-img">
+            </a>
 
-    <!-- Menu -->
-    <div class="menu">
-        <a href="#">Sinopse</a>
-        <a href="#">Nos Apoie</a>
-        <a href="#">Jobs</a>
-        <a href="#">FAQ</a>
-    </div>
+            <!-- Menu -->
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Sinopse</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Nos Apoie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Jobs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Linha branca -->
+        <hr class="divider">
+    </header>
 
-    <!-- Linha divisória -->
-    <hr class="divider">
-
-    <!-- Imagem grande -->
-    <a href="#">
-        <img src="https://via.placeholder.com/600x300" alt="Imagem grande" class="large-img">
-    </a>
+    <!-- Conteúdo principal -->
+    <main class="container text-center my-4">
+        <!-- Imagem grande -->
+        <a href="#">
+            <img src="https://via.placeholder.com/600x300" alt="Imagem grande" class="large-img">
+        </a>
+    </main>
 
 </body>
 </html>
