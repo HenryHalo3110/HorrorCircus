@@ -101,4 +101,8 @@ body {
     line-height: 1.5;
     font-size: 1.1rem;
     color: white;
+    
+    text-align: center; 
+    margin: 0 auto;     
 }
+
