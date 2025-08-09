@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Layout</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -14,7 +14,7 @@
         <div class="container d-flex align-items-center">
             <!-- Imagem pequena -->
             <a href="#">
-                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/105387059_BPw4M3Ykvnzuj7E.png" alt="Imagem pequena" class="small-img me-4">
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/105387059_BPw4M3Ykvnzuj7E.png" alt="Imagem pequena" class="small-img me-4" />
             </a>
 
             <!-- Menu alinhado à direita -->
@@ -28,16 +28,49 @@
             </nav>
         </div>
         <!-- Linha branca -->
-        <hr class="divider">
+        <hr class="divider" />
     </header>
 
     <!-- Conteúdo principal -->
     <main class="container text-center my-4">
         <!-- Imagem grande -->
         <a href="#">
-            <img src="https://i.pinimg.com/1200x/56/24/dc/5624dc46f817a3b0d03dfa546c9e1bcf.jpg" alt="Imagem grande" class="large-img">
+            <img src="https://i.pinimg.com/1200x/56/24/dc/5624dc46f817a3b0d03dfa546c9e1bcf.jpg" alt="Imagem grande" class="large-img" />
         </a>
     </main>
+
+    <!-- Sessão da sinopse com imagem fundo -->
+    <section id="horror-circus" class="secao-horror-circus" tabindex="0" aria-label="Seção sinopse sobre Horror Circus">
+        <div class="container position-relative">
+            <!-- Imagem de fundo centralizada -->
+            <img 
+                src="https://i.pinimg.com/1200x/56/24/dc/5624dc46f817a3b0d03dfa546c9e1bcf.jpg" 
+                alt="" 
+                class="imagem-fundo" 
+                aria-hidden="true" 
+            />
+
+            <!-- Conteúdo flexível: imagem pequena + texto -->
+            <div class="d-flex align-items-center conteudo">
+                <!-- Imagem pequena à esquerda -->
+                <div class="imagem-pequena">
+                    <img
+                        src="https://f2.toyhou.se/file/f2-toyhou-se/images/105387059_BPw4M3Ykvnzuj7E.png"
+                        alt="Imagem relacionada ao Horror Circus"
+                        loading="lazy"
+                    />
+                </div>
+
+                <!-- Texto à direita -->
+                <div class="texto ms-4">
+                    <h2>WHAT IS HORROR CIRCUS?</h2>
+                    <p class="sinopse">
+                        Horror Circus is a twisted carnival where nightmares come to life and the shadows hold secrets darker than you could imagine. Explore the depths of fear through haunting performances, eerie characters, and chilling tales that blur the line between reality and horror.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
