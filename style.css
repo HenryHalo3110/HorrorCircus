@@ -1,0 +1,44 @@
+body {
+    background-color: #0c0d13;
+    color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Imagem pequena no topo esquerdo */
+.small-img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+/* Menu de botões */
+.menu {
+    margin-top: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #1a1a1a;
+}
+
+/* Imagem grande centralizada */
+.large-img {
+    display: block;
+    margin: 40px auto 0 auto;
+    max-width: 80%;
+    border: 3px solid #7b1717;
+}
